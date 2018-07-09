@@ -35,7 +35,7 @@ class MainActivity : BaseActivity(),MainMvpView {
     }
 
     override fun navigateToVideoPlayerActivity(title: String, playId: String) {
-        val test = "test"
+
         val intent = TestActivity.newIntent(this, title, playId)
         startActivity(intent)
     }
